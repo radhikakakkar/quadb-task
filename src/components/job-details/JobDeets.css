@@ -1,0 +1,35 @@
+.job-details-container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.job-details-body {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#apply-btn {
+  flex-direction: column;
+  font-weight: 600;
+  margin: auto;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  color: white;
+  display: flex;
+  /* justify-content: center;
+    align-items: center; */
+  cursor: pointer;
+  padding: 11px 20%;
+  border-radius: 100px;
+  background: rgb(245, 239, 73);
+  background: linear-gradient(
+    90deg,
+    rgba(245, 239, 73, 1) 0%,
+    rgba(242, 212, 24, 1) 35%,
+    rgba(255, 177, 0, 1) 100%
+  );
+}
